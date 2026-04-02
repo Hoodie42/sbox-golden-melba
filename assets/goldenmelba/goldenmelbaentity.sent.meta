@@ -1,0 +1,21 @@
+{
+  "publish": {
+    "Enabled": true,
+    "ProjectConfig": {
+      "Title": "Melba The Golden",
+      "Type": "sent",
+      "Org": "hoodie",
+      "Ident": "melbagoldenentity",
+      "Schema": 0,
+      "IncludeSourceFiles": false,
+      "Resources": null,
+      "PackageReferences": null,
+      "EditorReferences": null,
+      "Mounts": null,
+      "IsStandaloneOnly": false,
+      "Metadata": {
+        "SingleAssetSource": "goldenmelba/goldenmelbaentity.sent"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "publish": {
+    "Enabled": false,
+    "ProjectConfig": {
+      "Title": "Melba The Golden",
+      "Type": "prefab",
+      "Org": "hoodie",
+      "Ident": "goldenmelba",
+      "Schema": 0,
+      "IncludeSourceFiles": false,
+      "Resources": null,
+      "PackageReferences": null,
+      "EditorReferences": null,
+      "Mounts": null,
+      "IsStandaloneOnly": false,
+      "Metadata": {
+        "SingleAssetSource": "goldenmelba/goldenmelba.prefab"
+      }
+    }
+  }
+}

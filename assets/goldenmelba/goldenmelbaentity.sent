@@ -1,0 +1,9 @@
+{
+  "Prefab": "goldenmelba/goldenmelba.prefab",
+  "Title": "Melba The Golden",
+  "Description": "What a nice dog",
+  "Category": "Animals",
+  "IncludeCode": true,
+  "__references": [],
+  "__version": 0
+}
