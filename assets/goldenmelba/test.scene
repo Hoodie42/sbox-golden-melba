@@ -152,118 +152,9 @@
       "__version": 2,
       "__Prefab": "goldenmelba/goldenmelba.prefab",
       "__PrefabInstancePatch": {
-        "AddedObjects": [
-          {
-            "Id": {
-              "Type": "Component",
-              "IdValue": "a8d49736-d71f-41d3-b7c7-17c448dc04c3"
-            },
-            "Parent": {
-              "Type": "GameObject",
-              "IdValue": "66f7133b-9ad3-4ba1-9e59-d938637382df"
-            },
-            "PreviousElement": {
-              "Type": "Component",
-              "IdValue": "fb322614-d003-45c7-a5c6-2d5f89449742"
-            },
-            "ContainerProperty": "Components",
-            "IsContainerArray": true,
-            "Data": {
-              "__type": "Goldenmelba",
-              "__guid": "a8d49736-d71f-41d3-b7c7-17c448dc04c3",
-              "__enabled": true,
-              "Flags": 0,
-              "OnComponentDestroy": null,
-              "OnComponentDisabled": null,
-              "OnComponentEnabled": null,
-              "OnComponentFixedUpdate": null,
-              "OnComponentStart": null,
-              "OnComponentUpdate": null,
-              "WoofSound": "goldenmelba/woof.sound"
-            }
-          }
-        ],
-        "RemovedObjects": [
-          {
-            "Id": {
-              "Type": "GameObject",
-              "IdValue": "98e68f47-0244-43a0-9fb8-ddc9a846c274"
-            }
-          },
-          {
-            "Id": {
-              "Type": "Component",
-              "IdValue": "92fe780d-1a47-4ce7-979d-6904b9211d16"
-            }
-          }
-        ],
-        "PropertyOverrides": [
-          {
-            "Target": {
-              "Type": "Component",
-              "IdValue": "38f4fa9b-d4a3-47fe-8f97-da4ccddfd4d4"
-            },
-            "Property": "Sprite",
-            "Value": {
-              "$compiler": "embed",
-              "$source": null,
-              "data": {
-                "Animations": [
-                  {
-                    "Name": "Default",
-                    "FrameRate": 15,
-                    "Origin": "0.5,0.5",
-                    "LoopMode": "Loop",
-                    "Frames": [
-                      {
-                        "Texture": {
-                          "$compiler": "texture",
-                          "$source": "imagefile",
-                          "data": {
-                            "FilePath": "goldenmelba/melba.jpg",
-                            "MaxSize": 4096,
-                            "ConvertHeightToNormals": false,
-                            "NormalScale": 1,
-                            "Rotate": 0,
-                            "FlipVertical": false,
-                            "FlipHorizontal": false,
-                            "Cropping": {
-                              "Left": 0,
-                              "Top": 0,
-                              "Right": 0,
-                              "Bottom": 0
-                            },
-                            "Padding": {
-                              "Left": 0,
-                              "Top": 0,
-                              "Right": 0,
-                              "Bottom": 0
-                            },
-                            "InvertColor": false,
-                            "Tint": "1,1,1,1",
-                            "Blur": 0,
-                            "Sharpen": 0,
-                            "Brightness": 1,
-                            "Contrast": 1,
-                            "Saturation": 1,
-                            "Hue": 0,
-                            "Colorize": false,
-                            "TargetColor": "1,1,1,1",
-                            "CacheToDisk": true
-                          },
-                          "compiled": null
-                        },
-                        "BroadcastMessages": []
-                      }
-                    ]
-                  }
-                ],
-                "__references": null
-              },
-              "compiled": null
-            }
-          }
-        ],
+        "AddedObjects": [],
+        "RemovedObjects": [],
+        "PropertyOverrides": [],
         "MovedObjects": []
       },
       "__PrefabIdToInstanceId": {
@@ -273,8 +164,7 @@
         "fb322614-d003-45c7-a5c6-2d5f89449742": "0466b476-6b14-4b9e-bf11-13a2c9b9ac13",
         "2c0cc846-a101-4552-8d40-2e91f31810a7": "d68c8533-5e14-4d59-a0e9-7e7ef63792fb",
         "38f4fa9b-d4a3-47fe-8f97-da4ccddfd4d4": "54bab3ad-9335-473d-be19-71a1c03b4d49",
-        "98e68f47-0244-43a0-9fb8-ddc9a846c274": "b1d3c60b-bf20-40b4-871f-704035b89078",
-        "92fe780d-1a47-4ce7-979d-6904b9211d16": "d21ebc73-bf7a-4946-a8a0-53601f68991d"
+        "087e84c0-67e5-489e-a2d3-1600cbdd5ab9": "e8f13e45-0c7c-4679-bcc2-68b3a43f2cae"
       }
     }
   ],
@@ -302,7 +192,7 @@
       },
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
-          "$blob": "094b193b-26fc-4c9c-99dd-12f30f25d828"
+          "$blob": "c2ec435d-ae94-4d4b-a8f0-3b44310d9b07"
         }
       }
     }

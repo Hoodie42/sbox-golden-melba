@@ -1,6 +1,9 @@
 using Sandbox;
 using System.Threading.Tasks;
 
+namespace Hoodie;
+
+[Title( "Melba The Golden" )]
 public sealed class Goldenmelba : Component, Component.INetworkSpawn, Component.IPressable
 {
 	[Property]

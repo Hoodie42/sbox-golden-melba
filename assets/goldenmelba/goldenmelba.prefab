@@ -101,6 +101,19 @@
         "OverrideMassCenter": false,
         "RigidbodyFlags": 0,
         "StartAsleep": false
+      },
+      {
+        "__type": "Hoodie.Goldenmelba",
+        "__guid": "087e84c0-67e5-489e-a2d3-1600cbdd5ab9",
+        "__enabled": true,
+        "Flags": 0,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "WoofSound": "goldenmelba/woof.sound"
       }
     ],
     "Children": [
@@ -216,75 +229,6 @@
             },
             "StartingAnimationName": "Default",
             "TextureFilter": "Bilinear"
-          }
-        ],
-        "Children": []
-      },
-      {
-        "__guid": "98e68f47-0244-43a0-9fb8-ddc9a846c274",
-        "__version": 2,
-        "Flags": 0,
-        "Name": "woof",
-        "Position": "0,0,0",
-        "Rotation": "0,0,0,1",
-        "Scale": "1,1,1",
-        "Tags": "",
-        "Enabled": true,
-        "NetworkMode": 2,
-        "NetworkFlags": 0,
-        "NetworkOrphaned": 0,
-        "NetworkTransmit": true,
-        "OwnerTransfer": 1,
-        "Components": [
-          {
-            "__type": "Sandbox.SoundPointComponent",
-            "__guid": "92fe780d-1a47-4ce7-979d-6904b9211d16",
-            "__enabled": true,
-            "Flags": 0,
-            "Distance": 1000,
-            "DistanceAttenuation": true,
-            "DistanceAttenuationOverride": true,
-            "Falloff": [
-              {
-                "x": 0,
-                "y": 1,
-                "in": 3.1415927,
-                "out": -3.1415927,
-                "mode": "Mirrored"
-              },
-              {
-                "x": 1,
-                "y": 0,
-                "in": 0,
-                "out": 0,
-                "mode": "Mirrored"
-              }
-            ],
-            "Force2d": false,
-            "MaxRepeatTime": 1,
-            "MinRepeatTime": 1,
-            "Occlusion": false,
-            "OcclusionOverride": false,
-            "OcclusionRadius": 32,
-            "OnComponentDestroy": null,
-            "OnComponentDisabled": null,
-            "OnComponentEnabled": null,
-            "OnComponentFixedUpdate": null,
-            "OnComponentStart": null,
-            "OnComponentUpdate": null,
-            "Pitch": 1,
-            "PlayOnStart": false,
-            "ReflectionOverride": false,
-            "Reflections": false,
-            "Repeat": false,
-            "SoundEvent": "goldenmelba/woof.sound",
-            "SoundOverride": false,
-            "StopOnNew": false,
-            "TargetMixer": {
-              "Name": "unknown",
-              "Id": "00000000-0000-0000-0000-000000000000"
-            },
-            "Volume": 1
           }
         ],
         "Children": []
