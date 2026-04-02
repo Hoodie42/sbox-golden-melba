@@ -1,4 +1,5 @@
 using Sandbox;
+using System.Threading.Tasks;
 
 public sealed class Goldenmelba : Component, Component.INetworkSpawn, Component.IPressable
 {
@@ -15,6 +16,18 @@ public sealed class Goldenmelba : Component, Component.INetworkSpawn, Component.
 	protected override void OnStart()
 	{
 		SetRandomScale();
+		StartJumping();
+	}
+
+	public async Task StartJumping()
+	{
+		while ( this.IsValid() )
+		{
+			Woof();
+			Jump();
+
+			await Task.DelaySeconds( Game.Random.Float( 1f, 10f ) );
+		}
 	}
 
 	public bool Press( IPressable.Event e )
@@ -34,7 +47,7 @@ public sealed class Goldenmelba : Component, Component.INetworkSpawn, Component.
 	{
 		if ( !Rb.IsValid() )
 			return;
-		Rb.ApplyImpulse( GameObject.WorldRotation.Up * Game.Random.Float( 100000f, 500000f ) );
+		Rb.ApplyImpulse( GameObject.WorldRotation.Up * Game.Random.Float( 100000f, 400000f ) );
 	}
 
 	private void Woof()
